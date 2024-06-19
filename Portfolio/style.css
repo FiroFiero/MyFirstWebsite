@@ -1,0 +1,213 @@
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body{
+    position: relative;
+    background-color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    background-attachment: fixed; 
+    topmargin: 0;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+header{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow:hidden;
+    overflow-x:hidden; 
+    <body style='overflow-x:hidden;'>
+}
+
+.header_head{
+    position: relative;
+    background-color: #191819;
+}
+
+.head_inner{
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    justify-content: space-between;
+    -ms-align-items: center;
+    align-items: center;     
+}
+.head_inner .logo{
+    font-weight: bold;
+    font-size: 30px;
+    color: #ccc;
+}
+.head_inner nav ul{
+    margin: 0;
+    padding: 0;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    -ms-align-items: center;
+    align-items: center;
+}
+.head_inner nav ul li{
+    list-style-type: none;
+}
+.head_inner nav ul li a{
+    font-size: 14px;
+    color: #ccc;
+    display: inline-block;
+    padding: 20px 30px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.header_body{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    margin-top: 100px;
+}
+.header_body_inner{
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    justify-content: space-between;
+    -ms-align-items: center;
+    align-items: center;
+    width: 100%;
+}
+.header_body_inner .left .title{
+    color: #333;
+    font-size: 40px;
+    -webkit-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    transition: all .5s ease;
+}
+.header_body_inner .left .title span{
+    color: #823943;
+}
+
+.buttons{
+    margin-top: 20px;
+}
+
+a.btn{
+    display: inline-block;
+    background-color: #823943;
+    color: #fff;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.btn_outline_text{
+    margin-left: 10px;
+    display: inline-block;
+    background-color: #823943;
+    color: #fff;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.header_body_inner .right img{
+    border-radius: 100%;
+}
+
+section{
+    position: relative;
+    padding: 20px 0;
+    width: 100%;
+    height: 100vh;
+}
+.section-title{
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: #333;
+}
+.about_text{
+    margin-top: 45px;
+}
+.about_text p{
+    font-size: 23px;
+    margin-bottom: 25px;
+}
+.portfolio_items{
+    margin-top: 45px;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    flex-wrap: wrap;
+}
+.portfolio_items .item{
+    display: block;
+    position: relative;
+    margin: 0 10px 15px 0;
+    width: calc(100% / 3 - 10px);
+}
+.portfolio_items .item:last-child{
+    margin-right: 0;
+
+}
+.portfolio_items .item img{
+    max-width: 100%;
+}
+.section_nontitle {
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: #333;
+}
+.portfolio_btn{
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+.contacts_form{
+    position: relative;
+    max-width: 700px;
+    margin: 40px auto;
+    text-align: center;
+}
+.contacts_form form input{
+    width: 100%;
+    height: 70px;
+    margin-bottom: 20px;
+    padding: 10px 0 10px 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    border: 1px solid purple;
+    border-radius: 3px;
+}
+.contacts_form form textarea{
+    width: 100%;
+    font-size: 20px;
+    border: 1px solid purple;
+    border-radius: 3px;
+}
+footer{
+    position: relative;
+    padding: 20px 0;
+    background-color: #181918;
+}
+footer p{
+    text-align: center;
+    color: #ccc;
+}
